@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437F657B25ED855F004EDA70 /* Fitness_ZestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F657A25ED855F004EDA70 /* Fitness_ZestApp.swift */; };
+		437F657D25ED855F004EDA70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F657C25ED855F004EDA70 /* ContentView.swift */; };
+		437F657F25ED8560004EDA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437F657E25ED8560004EDA70 /* Assets.xcassets */; };
+		437F658225ED8560004EDA70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437F658125ED8560004EDA70 /* Preview Assets.xcassets */; };
+		437F658D25ED8560004EDA70 /* Fitness_ZestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F658C25ED8560004EDA70 /* Fitness_ZestTests.swift */; };
+		437F659825ED8560004EDA70 /* Fitness_ZestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F659725ED8560004EDA70 /* Fitness_ZestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		437F658925ED8560004EDA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437F656F25ED855F004EDA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437F657625ED855F004EDA70;
+			remoteInfo = "Fitness Zest";
+		};
+		437F659425ED8560004EDA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437F656F25ED855F004EDA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437F657625ED855F004EDA70;
+			remoteInfo = "Fitness Zest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		437F657725ED855F004EDA70 /* Fitness Zest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Zest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437F657A25ED855F004EDA70 /* Fitness_ZestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_ZestApp.swift; sourceTree = "<group>"; };
+		437F657C25ED855F004EDA70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		437F657E25ED8560004EDA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		437F658125ED8560004EDA70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		437F658325ED8560004EDA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437F658825ED8560004EDA70 /* Fitness ZestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness ZestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437F658C25ED8560004EDA70 /* Fitness_ZestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_ZestTests.swift; sourceTree = "<group>"; };
+		437F658E25ED8560004EDA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437F659325ED8560004EDA70 /* Fitness ZestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness ZestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437F659725ED8560004EDA70 /* Fitness_ZestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_ZestUITests.swift; sourceTree = "<group>"; };
+		437F659925ED8560004EDA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		437F657425ED855F004EDA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437F658525ED8560004EDA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437F659025ED8560004EDA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437F656E25ED855F004EDA70 = {
+			isa = PBXGroup;
+			children = (
+				437F657925ED855F004EDA70 /* Fitness Zest */,
+				437F658B25ED8560004EDA70 /* Fitness ZestTests */,
+				437F659625ED8560004EDA70 /* Fitness ZestUITests */,
+				437F657825ED855F004EDA70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		437F657825ED855F004EDA70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437F657725ED855F004EDA70 /* Fitness Zest.app */,
+				437F658825ED8560004EDA70 /* Fitness ZestTests.xctest */,
+				437F659325ED8560004EDA70 /* Fitness ZestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437F657925ED855F004EDA70 /* Fitness Zest */ = {
+			isa = PBXGroup;
+			children = (
+				437F657A25ED855F004EDA70 /* Fitness_ZestApp.swift */,
+				437F657C25ED855F004EDA70 /* ContentView.swift */,
+				437F657E25ED8560004EDA70 /* Assets.xcassets */,
+				437F658325ED8560004EDA70 /* Info.plist */,
+				437F658025ED8560004EDA70 /* Preview Content */,
+			);
+			path = "Fitness Zest";
+			sourceTree = "<group>";
+		};
+		437F658025ED8560004EDA70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				437F658125ED8560004EDA70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		437F658B25ED8560004EDA70 /* Fitness ZestTests */ = {
+			isa = PBXGroup;
+			children = (
+				437F658C25ED8560004EDA70 /* Fitness_ZestTests.swift */,
+				437F658E25ED8560004EDA70 /* Info.plist */,
+			);
+			path = "Fitness ZestTests";
+			sourceTree = "<group>";
+		};
+		437F659625ED8560004EDA70 /* Fitness ZestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				437F659725ED8560004EDA70 /* Fitness_ZestUITests.swift */,
+				437F659925ED8560004EDA70 /* Info.plist */,
+			);
+			path = "Fitness ZestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		437F657625ED855F004EDA70 /* Fitness Zest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437F659C25ED8560004EDA70 /* Build configuration list for PBXNativeTarget "Fitness Zest" */;
+			buildPhases = (
+				437F657325ED855F004EDA70 /* Sources */,
+				437F657425ED855F004EDA70 /* Frameworks */,
+				437F657525ED855F004EDA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness Zest";
+			productName = "Fitness Zest";
+			productReference = 437F657725ED855F004EDA70 /* Fitness Zest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		437F658725ED8560004EDA70 /* Fitness ZestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437F659F25ED8560004EDA70 /* Build configuration list for PBXNativeTarget "Fitness ZestTests" */;
+			buildPhases = (
+				437F658425ED8560004EDA70 /* Sources */,
+				437F658525ED8560004EDA70 /* Frameworks */,
+				437F658625ED8560004EDA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437F658A25ED8560004EDA70 /* PBXTargetDependency */,
+			);
+			name = "Fitness ZestTests";
+			productName = "Fitness ZestTests";
+			productReference = 437F658825ED8560004EDA70 /* Fitness ZestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		437F659225ED8560004EDA70 /* Fitness ZestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437F65A225ED8560004EDA70 /* Build configuration list for PBXNativeTarget "Fitness ZestUITests" */;
+			buildPhases = (
+				437F658F25ED8560004EDA70 /* Sources */,
+				437F659025ED8560004EDA70 /* Frameworks */,
+				437F659125ED8560004EDA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437F659525ED8560004EDA70 /* PBXTargetDependency */,
+			);
+			name = "Fitness ZestUITests";
+			productName = "Fitness ZestUITests";
+			productReference = 437F659325ED8560004EDA70 /* Fitness ZestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437F656F25ED855F004EDA70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					437F657625ED855F004EDA70 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					437F658725ED8560004EDA70 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 437F657625ED855F004EDA70;
+					};
+					437F659225ED8560004EDA70 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 437F657625ED855F004EDA70;
+					};
+				};
+			};
+			buildConfigurationList = 437F657225ED855F004EDA70 /* Build configuration list for PBXProject "Fitness Zest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 437F656E25ED855F004EDA70;
+			productRefGroup = 437F657825ED855F004EDA70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				437F657625ED855F004EDA70 /* Fitness Zest */,
+				437F658725ED8560004EDA70 /* Fitness ZestTests */,
+				437F659225ED8560004EDA70 /* Fitness ZestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437F657525ED855F004EDA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437F658225ED8560004EDA70 /* Preview Assets.xcassets in Resources */,
+				437F657F25ED8560004EDA70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437F658625ED8560004EDA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437F659125ED8560004EDA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		437F657325ED855F004EDA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437F657D25ED855F004EDA70 /* ContentView.swift in Sources */,
+				437F657B25ED855F004EDA70 /* Fitness_ZestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437F658425ED8560004EDA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437F658D25ED8560004EDA70 /* Fitness_ZestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437F658F25ED8560004EDA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437F659825ED8560004EDA70 /* Fitness_ZestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437F658A25ED8560004EDA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437F657625ED855F004EDA70 /* Fitness Zest */;
+			targetProxy = 437F658925ED8560004EDA70 /* PBXContainerItemProxy */;
+		};
+		437F659525ED8560004EDA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437F657625ED855F004EDA70 /* Fitness Zest */;
+			targetProxy = 437F659425ED8560004EDA70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		437F659A25ED8560004EDA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		437F659B25ED8560004EDA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		437F659D25ED8560004EDA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness Zest/Preview Content\"";
+				DEVELOPMENT_TEAM = 977B62V6NR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fitness Zest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odega.Fitness-Zest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		437F659E25ED8560004EDA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness Zest/Preview Content\"";
+				DEVELOPMENT_TEAM = 977B62V6NR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fitness Zest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odega.Fitness-Zest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		437F65A025ED8560004EDA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 977B62V6NR;
+				INFOPLIST_FILE = "Fitness ZestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odega.Fitness-ZestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness Zest.app/Fitness Zest";
+			};
+			name = Debug;
+		};
+		437F65A125ED8560004EDA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 977B62V6NR;
+				INFOPLIST_FILE = "Fitness ZestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odega.Fitness-ZestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness Zest.app/Fitness Zest";
+			};
+			name = Release;
+		};
+		437F65A325ED8560004EDA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 977B62V6NR;
+				INFOPLIST_FILE = "Fitness ZestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odega.Fitness-ZestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness Zest";
+			};
+			name = Debug;
+		};
+		437F65A425ED8560004EDA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 977B62V6NR;
+				INFOPLIST_FILE = "Fitness ZestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odega.Fitness-ZestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness Zest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437F657225ED855F004EDA70 /* Build configuration list for PBXProject "Fitness Zest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437F659A25ED8560004EDA70 /* Debug */,
+				437F659B25ED8560004EDA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437F659C25ED8560004EDA70 /* Build configuration list for PBXNativeTarget "Fitness Zest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437F659D25ED8560004EDA70 /* Debug */,
+				437F659E25ED8560004EDA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437F659F25ED8560004EDA70 /* Build configuration list for PBXNativeTarget "Fitness ZestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437F65A025ED8560004EDA70 /* Debug */,
+				437F65A125ED8560004EDA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437F65A225ED8560004EDA70 /* Build configuration list for PBXNativeTarget "Fitness ZestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437F65A325ED8560004EDA70 /* Debug */,
+				437F65A425ED8560004EDA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 437F656F25ED855F004EDA70 /* Project object */;
+}
