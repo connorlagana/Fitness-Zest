@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3499441D5A68CBD18F7D4815 /* Pods_Fitness_ZestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC666DE4DDAA7106BA96F76 /* Pods_Fitness_ZestTests.framework */; };
 		437F657B25ED855F004EDA70 /* Fitness_ZestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F657A25ED855F004EDA70 /* Fitness_ZestApp.swift */; };
 		437F657D25ED855F004EDA70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F657C25ED855F004EDA70 /* ContentView.swift */; };
 		437F657F25ED8560004EDA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437F657E25ED8560004EDA70 /* Assets.xcassets */; };
 		437F658225ED8560004EDA70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437F658125ED8560004EDA70 /* Preview Assets.xcassets */; };
 		437F658D25ED8560004EDA70 /* Fitness_ZestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F658C25ED8560004EDA70 /* Fitness_ZestTests.swift */; };
 		437F659825ED8560004EDA70 /* Fitness_ZestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F659725ED8560004EDA70 /* Fitness_ZestUITests.swift */; };
-		437F65AA25ED87AA004EDA70 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F65A925ED87AA004EDA70 /* LoginView.swift */; };
+		437F65AA25ED87AA004EDA70 /* StartupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F65A925ED87AA004EDA70 /* StartupView.swift */; };
 		437F65B225ED87CF004EDA70 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F65B125ED87CF004EDA70 /* LoginButton.swift */; };
-		437F65B725ED87E2004EDA70 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F65B625ED87E2004EDA70 /* SignUpButton.swift */; };
+		437F65BF25ED9EA7004EDA70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 437F65BE25ED9EA7004EDA70 /* GoogleService-Info.plist */; };
+		437F65D825EDA012004EDA70 /* CustomAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F65D725EDA012004EDA70 /* CustomAppDelegate.swift */; };
+		437F65E025EDA1EB004EDA70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F65DF25EDA1EB004EDA70 /* LoginViewController.swift */; };
+		437F65E525EDA1F6004EDA70 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F65E425EDA1F6004EDA70 /* SignUpViewController.swift */; };
+		9BEEB901B30ED1EC6FE15A8C /* Pods_Fitness_ZestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7832FBBD064E80F8E01AC770 /* Pods_Fitness_ZestUITests.framework */; };
+		A488D0DB608BDBC9761B86C1 /* Pods_Fitness_Zest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A825A4D94D1B9E6F2E9F09F /* Pods_Fitness_Zest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +54,21 @@
 		437F659325ED8560004EDA70 /* Fitness ZestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness ZestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		437F659725ED8560004EDA70 /* Fitness_ZestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_ZestUITests.swift; sourceTree = "<group>"; };
 		437F659925ED8560004EDA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		437F65A925ED87AA004EDA70 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		437F65A925ED87AA004EDA70 /* StartupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupView.swift; sourceTree = "<group>"; };
 		437F65B125ED87CF004EDA70 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
-		437F65B625ED87E2004EDA70 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		437F65BE25ED9EA7004EDA70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		437F65D725EDA012004EDA70 /* CustomAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppDelegate.swift; sourceTree = "<group>"; };
+		437F65DF25EDA1EB004EDA70 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		437F65E425EDA1F6004EDA70 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		569C7F6276A0BA4953E10C7C /* Pods-Fitness ZestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness ZestTests.release.xcconfig"; path = "Target Support Files/Pods-Fitness ZestTests/Pods-Fitness ZestTests.release.xcconfig"; sourceTree = "<group>"; };
+		59016DFC3E4DF03CD477D477 /* Pods-Fitness ZestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness ZestTests.debug.xcconfig"; path = "Target Support Files/Pods-Fitness ZestTests/Pods-Fitness ZestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7832FBBD064E80F8E01AC770 /* Pods_Fitness_ZestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitness_ZestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAC7A0DDA408CCDAB73C3D7 /* Pods-Fitness Zest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness Zest.debug.xcconfig"; path = "Target Support Files/Pods-Fitness Zest/Pods-Fitness Zest.debug.xcconfig"; sourceTree = "<group>"; };
+		95453F4F4859210E0107BE9E /* Pods-Fitness Zest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness Zest.release.xcconfig"; path = "Target Support Files/Pods-Fitness Zest/Pods-Fitness Zest.release.xcconfig"; sourceTree = "<group>"; };
+		9A825A4D94D1B9E6F2E9F09F /* Pods_Fitness_Zest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitness_Zest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE14D5BC584905647484E87D /* Pods-Fitness ZestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness ZestUITests.release.xcconfig"; path = "Target Support Files/Pods-Fitness ZestUITests/Pods-Fitness ZestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CBECCDC86A6FFF6FEEAA2572 /* Pods-Fitness ZestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness ZestUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fitness ZestUITests/Pods-Fitness ZestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAC666DE4DDAA7106BA96F76 /* Pods_Fitness_ZestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitness_ZestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A488D0DB608BDBC9761B86C1 /* Pods_Fitness_Zest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3499441D5A68CBD18F7D4815 /* Pods_Fitness_ZestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEEB901B30ED1EC6FE15A8C /* Pods_Fitness_ZestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				437F658B25ED8560004EDA70 /* Fitness ZestTests */,
 				437F659625ED8560004EDA70 /* Fitness ZestUITests */,
 				437F657825ED855F004EDA70 /* Products */,
+				4AA8BCA891F41F7C9381AE70 /* Pods */,
+				C161DEBDB48896BE8F1B84E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,7 +129,9 @@
 				437F657C25ED855F004EDA70 /* ContentView.swift */,
 				437F657E25ED8560004EDA70 /* Assets.xcassets */,
 				437F658325ED8560004EDA70 /* Info.plist */,
+				437F65BE25ED9EA7004EDA70 /* GoogleService-Info.plist */,
 				437F658025ED8560004EDA70 /* Preview Content */,
+				437F65D725EDA012004EDA70 /* CustomAppDelegate.swift */,
 			);
 			path = "Fitness Zest";
 			sourceTree = "<group>";
@@ -140,11 +165,35 @@
 		437F65A825ED8799004EDA70 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				437F65A925ED87AA004EDA70 /* LoginView.swift */,
+				437F65A925ED87AA004EDA70 /* StartupView.swift */,
 				437F65B125ED87CF004EDA70 /* LoginButton.swift */,
-				437F65B625ED87E2004EDA70 /* SignUpButton.swift */,
+				437F65DF25EDA1EB004EDA70 /* LoginViewController.swift */,
+				437F65E425EDA1F6004EDA70 /* SignUpViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		4AA8BCA891F41F7C9381AE70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DAC7A0DDA408CCDAB73C3D7 /* Pods-Fitness Zest.debug.xcconfig */,
+				95453F4F4859210E0107BE9E /* Pods-Fitness Zest.release.xcconfig */,
+				59016DFC3E4DF03CD477D477 /* Pods-Fitness ZestTests.debug.xcconfig */,
+				569C7F6276A0BA4953E10C7C /* Pods-Fitness ZestTests.release.xcconfig */,
+				CBECCDC86A6FFF6FEEAA2572 /* Pods-Fitness ZestUITests.debug.xcconfig */,
+				BE14D5BC584905647484E87D /* Pods-Fitness ZestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C161DEBDB48896BE8F1B84E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A825A4D94D1B9E6F2E9F09F /* Pods_Fitness_Zest.framework */,
+				FAC666DE4DDAA7106BA96F76 /* Pods_Fitness_ZestTests.framework */,
+				7832FBBD064E80F8E01AC770 /* Pods_Fitness_ZestUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437F659C25ED8560004EDA70 /* Build configuration list for PBXNativeTarget "Fitness Zest" */;
 			buildPhases = (
+				2F3465C0888672B6B451C91F /* [CP] Check Pods Manifest.lock */,
 				437F657325ED855F004EDA70 /* Sources */,
 				437F657425ED855F004EDA70 /* Frameworks */,
 				437F657525ED855F004EDA70 /* Resources */,
+				D040F9220EEA960205F1EE62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437F659F25ED8560004EDA70 /* Build configuration list for PBXNativeTarget "Fitness ZestTests" */;
 			buildPhases = (
+				9F72E04FC484FA0C899F00B3 /* [CP] Check Pods Manifest.lock */,
 				437F658425ED8560004EDA70 /* Sources */,
 				437F658525ED8560004EDA70 /* Frameworks */,
 				437F658625ED8560004EDA70 /* Resources */,
@@ -189,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437F65A225ED8560004EDA70 /* Build configuration list for PBXNativeTarget "Fitness ZestUITests" */;
 			buildPhases = (
+				5886F0EF42E3CF17208B3334 /* [CP] Check Pods Manifest.lock */,
 				437F658F25ED8560004EDA70 /* Sources */,
 				437F659025ED8560004EDA70 /* Frameworks */,
 				437F659125ED8560004EDA70 /* Resources */,
@@ -252,6 +305,7 @@
 			files = (
 				437F658225ED8560004EDA70 /* Preview Assets.xcassets in Resources */,
 				437F657F25ED8560004EDA70 /* Assets.xcassets in Resources */,
+				437F65BF25ED9EA7004EDA70 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,16 +325,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F3465C0888672B6B451C91F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fitness Zest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5886F0EF42E3CF17208B3334 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fitness ZestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F72E04FC484FA0C899F00B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fitness ZestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D040F9220EEA960205F1EE62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitness Zest/Pods-Fitness Zest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitness Zest/Pods-Fitness Zest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fitness Zest/Pods-Fitness Zest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		437F657325ED855F004EDA70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				437F65AA25ED87AA004EDA70 /* LoginView.swift in Sources */,
+				437F65E025EDA1EB004EDA70 /* LoginViewController.swift in Sources */,
+				437F65E525EDA1F6004EDA70 /* SignUpViewController.swift in Sources */,
+				437F65AA25ED87AA004EDA70 /* StartupView.swift in Sources */,
+				437F65D825EDA012004EDA70 /* CustomAppDelegate.swift in Sources */,
 				437F65B225ED87CF004EDA70 /* LoginButton.swift in Sources */,
 				437F657D25ED855F004EDA70 /* ContentView.swift in Sources */,
 				437F657B25ED855F004EDA70 /* Fitness_ZestApp.swift in Sources */,
-				437F65B725ED87E2004EDA70 /* SignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +576,7 @@
 		};
 		437F659D25ED8560004EDA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAC7A0DDA408CCDAB73C3D7 /* Pods-Fitness Zest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +599,7 @@
 		};
 		437F659E25ED8560004EDA70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95453F4F4859210E0107BE9E /* Pods-Fitness Zest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,6 +622,7 @@
 		};
 		437F65A025ED8560004EDA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59016DFC3E4DF03CD477D477 /* Pods-Fitness ZestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +645,7 @@
 		};
 		437F65A125ED8560004EDA70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569C7F6276A0BA4953E10C7C /* Pods-Fitness ZestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +668,7 @@
 		};
 		437F65A325ED8560004EDA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBECCDC86A6FFF6FEEAA2572 /* Pods-Fitness ZestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +689,7 @@
 		};
 		437F65A425ED8560004EDA70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE14D5BC584905647484E87D /* Pods-Fitness ZestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

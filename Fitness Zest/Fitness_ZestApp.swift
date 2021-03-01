@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Fitness_ZestApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartupView()
         }
     }
 }

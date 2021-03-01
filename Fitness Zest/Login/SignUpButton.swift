@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct SignUpButton: View {
+    
+    var backgroundColor: Color
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            //Login with firebase here
+            print("Signing Up...")
+        }, label: {
+            Text("Sign Up")
+                .foregroundColor(.white)
+                .frame(width: 250, height: 60, alignment: .center)
+                .background(backgroundColor)
+                .cornerRadius(500)
+        })
     }
 }
 
 struct SignUpButton_Previews: PreviewProvider {
     static var previews: some View {
-        SignUpButton()
+        SignUpButton(backgroundColor: Color.orange)
     }
 }

@@ -8,18 +8,22 @@
 import SwiftUI
 
 struct LoginButton: View {
+    
+    var backgroundColor: Color
+    var text: String
+    var action: () -> Void
+    
     var body: some View {
         Button(action: {
-            //Login with firebase here
-            print("Logging in...")
+            action()
         }, label: {
-            Text("Login")
+            Text("\(text)")
+                .foregroundColor(.white)
+                .fontWeight(.semibold)
+                .font(.system(size: 18))
+                .frame(width: 250, height: 60, alignment: .center)
+                .background(backgroundColor)
+                .cornerRadius(500)
         })
-    }
-}
-
-struct LoginButton_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginButton()
     }
 }
