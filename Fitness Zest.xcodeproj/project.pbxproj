@@ -124,7 +124,7 @@
 		437F657925ED855F004EDA70 /* Fitness Zest */ = {
 			isa = PBXGroup;
 			children = (
-				437F65A825ED8799004EDA70 /* Login */,
+				437F65A825ED8799004EDA70 /* Startup */,
 				437F657A25ED855F004EDA70 /* Fitness_ZestApp.swift */,
 				437F657C25ED855F004EDA70 /* ContentView.swift */,
 				437F657E25ED8560004EDA70 /* Assets.xcassets */,
@@ -162,13 +162,29 @@
 			path = "Fitness ZestUITests";
 			sourceTree = "<group>";
 		};
-		437F65A825ED8799004EDA70 /* Login */ = {
+		437F65A825ED8799004EDA70 /* Startup */ = {
 			isa = PBXGroup;
 			children = (
+				437F65ED25EDA7A1004EDA70 /* Login */,
+				437F65EC25EDA797004EDA70 /* Sign Up */,
 				437F65A925ED87AA004EDA70 /* StartupView.swift */,
 				437F65B125ED87CF004EDA70 /* LoginButton.swift */,
-				437F65DF25EDA1EB004EDA70 /* LoginViewController.swift */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		437F65EC25EDA797004EDA70 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
 				437F65E425EDA1F6004EDA70 /* SignUpViewController.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		437F65ED25EDA7A1004EDA70 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				437F65DF25EDA1EB004EDA70 /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -208,6 +224,7 @@
 				437F657425ED855F004EDA70 /* Frameworks */,
 				437F657525ED855F004EDA70 /* Resources */,
 				D040F9220EEA960205F1EE62 /* [CP] Embed Pods Frameworks */,
+				21C094181B869C6646D7AB7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,6 +343,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		21C094181B869C6646D7AB7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitness Zest/Pods-Fitness Zest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitness Zest/Pods-Fitness Zest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fitness Zest/Pods-Fitness Zest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2F3465C0888672B6B451C91F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -590,7 +624,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.odega.Fitness-Zest";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlagana.fitnesszest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -613,7 +647,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.odega.Fitness-Zest";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlagana.fitnesszest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
