@@ -13,6 +13,9 @@
 		437F658225ED8560004EDA70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437F658125ED8560004EDA70 /* Preview Assets.xcassets */; };
 		437F658D25ED8560004EDA70 /* Fitness_ZestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F658C25ED8560004EDA70 /* Fitness_ZestTests.swift */; };
 		437F659825ED8560004EDA70 /* Fitness_ZestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F659725ED8560004EDA70 /* Fitness_ZestUITests.swift */; };
+		437F65AA25ED87AA004EDA70 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F65A925ED87AA004EDA70 /* LoginView.swift */; };
+		437F65B225ED87CF004EDA70 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F65B125ED87CF004EDA70 /* LoginButton.swift */; };
+		437F65B725ED87E2004EDA70 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F65B625ED87E2004EDA70 /* SignUpButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		437F659325ED8560004EDA70 /* Fitness ZestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness ZestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		437F659725ED8560004EDA70 /* Fitness_ZestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_ZestUITests.swift; sourceTree = "<group>"; };
 		437F659925ED8560004EDA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437F65A925ED87AA004EDA70 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		437F65B125ED87CF004EDA70 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		437F65B625ED87E2004EDA70 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 		437F657925ED855F004EDA70 /* Fitness Zest */ = {
 			isa = PBXGroup;
 			children = (
+				437F65A825ED8799004EDA70 /* Login */,
 				437F657A25ED855F004EDA70 /* Fitness_ZestApp.swift */,
 				437F657C25ED855F004EDA70 /* ContentView.swift */,
 				437F657E25ED8560004EDA70 /* Assets.xcassets */,
@@ -128,6 +135,16 @@
 				437F659925ED8560004EDA70 /* Info.plist */,
 			);
 			path = "Fitness ZestUITests";
+			sourceTree = "<group>";
+		};
+		437F65A825ED8799004EDA70 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				437F65A925ED87AA004EDA70 /* LoginView.swift */,
+				437F65B125ED87CF004EDA70 /* LoginButton.swift */,
+				437F65B625ED87E2004EDA70 /* SignUpButton.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437F65AA25ED87AA004EDA70 /* LoginView.swift in Sources */,
+				437F65B225ED87CF004EDA70 /* LoginButton.swift in Sources */,
 				437F657D25ED855F004EDA70 /* ContentView.swift in Sources */,
 				437F657B25ED855F004EDA70 /* Fitness_ZestApp.swift in Sources */,
+				437F65B725ED87E2004EDA70 /* SignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
